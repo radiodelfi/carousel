@@ -16,10 +16,10 @@ Il programma BASIC **carousel.bas** carica in memoria il programma Assembly 6502
 - mettere a fuoco
 
 Per fornire queste funzionalità, il VIC-20 è stato collegato tramite il chip VIA 6522 a:
-- attuatore del motore di movimento del caricatore delle diapositive
-- attuatore del motore di movimento dell'obiettivo
-- rilevatore optoelettronico di movimento del motore del caricatore delle diapositive ![OPTOELETTRONICA](img/optoelettronica.png) 
-- tastierino a 16 tasti per azionale le funzioni ![TASTIERINO](img/tastierino.png) 
+- interfaccia del motore di movimento del caricatore delle diapositive
+- interfaccia del motore di movimento dell'obiettivo
+- rilevatore optoelettronico dei passi del motore del caricatore delle diapositive ![OPTOELETTRONICA](img/optoelettronica.png) 
+- tastierino a 16 tasti per azionare le funzioni ![TASTIERINO](img/tastierino.png) 
 
 Nella cartella *simulatore* è presente un programma BASIC (**simulatore.bas**) che è uno dei programmi scritti per provare il funzionamento della soluzione.
 
