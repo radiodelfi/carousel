@@ -9,14 +9,13 @@ Questo programma è stato sviluppato per trasformare il VIC-20 in un dispositivo
 ![CAROUSEL](img/kodak-carousel.png)
 
 Il programma BASIC **carousel.bas** carica in memoria il programma Assembly 6502 **carousel.asm** presente nella cartella *assembly* che fornisce le funzioni per:
-- proiettare la diapositiva che corrispondente al numero inserito da tastiera (da 1 a 80)
+- proiettare la diapositiva che corrispondente al numero inserito da tastiera (da 0 a 80)
 - calcolare il percorso più veloce
-- proiettare la diapositiva successiva o precedente
-- accendere e spegnere la lampada di proiezione 
+- proiettare la diapositiva successiva o la precedente
+- accendere o spegnere la lampada di proiezione 
 - mettere a fuoco
-- ecc. 
 
-Per fornire queste funzionalità, il VIC-20 è stato connesso tramite il chip VIA 6522 a:
+Per fornire queste funzionalità, il VIC-20 è stato collegato tramite il chip VIA 6522 a:
 - attuatore del motore di movimento del caricatore delle diapositive
 - attuatore del motore di movimento dell'obiettivo
 - rilevatore optoelettronico di movimento del motore del caricatore delle diapositive ![OPTOELETTRONICA](img/optoelettronica.png) 
